@@ -1,12 +1,14 @@
 [project]
 name = "rqrive"
 version = "0.1.0"
-description = "Add your description here"
+description = "A file downloader for google drive which allows downloading read-only files"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "gpsoauth",
     "hurry-filesize>=0.9",
+    "nuitka",
+    "pyinstaller",
     "pyside6>=6.9.2",
 ]
 
