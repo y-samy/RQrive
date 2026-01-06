@@ -1,0 +1,14 @@
+[project]
+name = "rqrive"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gpsoauth",
+    "hurry-filesize>=0.9",
+    "pyside6>=6.9.2",
+]
+
+[tool.uv.sources]
+gpsoauth = { git = "https://github.com/simon-weber/gpsoauth", rev = "master" }
