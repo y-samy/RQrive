@@ -1,5 +1,7 @@
 build/
 dist/
+deployment/
+nuitka-crash-report.xml
 __pycache__/
 .venv/
 env/
